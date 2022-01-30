@@ -1,0 +1,7 @@
+Timer  Function in ESP32 Arduino IDE
+We are commonly using the delay() function for doing the timing operations, in delay() functions are actually blocked the rest part of the code and doesn’t allow you to do anything else for a determined number of seconds (the value that we provide inside the delay( value ) function )
+ 
+delay(time in milliseconds)
+
+By using the millis() function, we can solve the issues due to delay()   It can return the number of milliseconds that have passed since the program first started.
+ 
